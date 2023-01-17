@@ -499,7 +499,7 @@ def main() -> None:
     # Start the Bot
     updater.start_webhook(listen="0.0.0.0",
                           port=PORT,
-                          url_path=TOKEN,webhook_url= 'https://peaceful-caverns-94180.herokuapp.com/' + TOKEN)
+                          url_path=TOKEN,webhook_url= 'https://vast-gray-harp-seal-belt.cyclic.app/' + TOKEN)
 
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
