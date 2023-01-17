@@ -2,8 +2,8 @@
     "name": "sdfg",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
+        "start": "node index.js",
         "test": "echo \"No test specified\" && exit 1"
     },
     "repository": {
