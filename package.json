@@ -2,10 +2,9 @@
     "name": "sdfg",
     "version": "1.0.0",
     "description": "",
+    "main": "index.js",
     "scripts": {
-        "build": "echo \"No build specified\" && exit 1",
-        "test": "echo \"No test specified\" && exit 1",
-        "start": "node index.js"
+        "test": "echo \"No test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
@@ -16,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/richardteo/sdfg/issues"
     },
-    "homepage": "https://github.com/richardteo/sdfg#readme"
+    "homepage": "https://github.com/richardteo/sdfg#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
